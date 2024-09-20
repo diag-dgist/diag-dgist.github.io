@@ -1,9 +1,11 @@
 # Site settings
 title: DIAG
-email: diag.dgist@gmail.com
+email: jeansong@yonsei.ac.kr
 url: https://diag.kr
-description: "In the DGIST Intelligence Augmentation Group (DIAG), we do research on the intersection of <u>Human-Computer Interaction</u> and <u>Artificial Intelligence</u>. Our focus lies in the study and development of <u>hybrid intelligence systems</u>, which integrate the power of both human and machine intelligence.
-Our objective is to address complex computational and social problems through the <u>design of novel and effective human-AI interactions</u> for these systems."
+description: "In Designing Intelligence Augmentation Group (DIAG), we do research on the intersection of <u>Human-Computer Interaction</u> and <u>Artificial Intelligence</u>. 
+Our focus lies in the study and development of <u>hybrid intelligence systems</u>, which integrate the power of both human and machine intelligence.
+Our objective is to address complex computational and social problems through the <u>design of novel and effective human-AI interactions</u> for these systems.</br></br>
+DIAG is currently a hybrid lab, with members working remotely or in person from Incheon and Hyunpoong, fostering cross-location collaboration. </br>"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
