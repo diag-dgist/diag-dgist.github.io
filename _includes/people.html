@@ -1,192 +1,161 @@
-<!-- Peoples Section -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chanwoo Park</title>
+<style>
 
-<section id="people" class="container content-section text-center">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2">
-			<h2>People</h2>
-			<!--div class="row">
-				<img src="/img/group_photo_2023fall.JPG" alt="group_photo" width="49%" style="display:inline-block;">
-				<br>
-				<p>DIAG Group Photo 2023 Fall Term</p>
-			</div>
-			<br--><br><br><br>
-		</div>
+@font-face {
+    font-family: 'Godo';
+    src: url('fonts/GodoM.otf'),
+   
+}
+ body {
+   font-family: Godo, Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f4f4f4;
+   display: flex;
+   flex-direction: row;
+   min-height: 100vh;
+   align-items: stretch;
+  }
+  .sidebarContainer {
+    background-color: #ffffff;
+    color: #111111;
+    width: 275px;
+    padding: 0px;
+    box-shadow: -5px 0 #00aa99 inset;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+  }
+  .sidebar {
+  	flex: 1;
+    background-color: #88ffdd;
+    color: #111111;
+    width: 220px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .sidebar img{
+    color: #111111;
+    width: 150px;
+    height:150px;
+    text-align: center;
+  }
+  .sidebar h1{
+  	font-weight:bold;
+  	font-size: 28px;
+    margin:0;
+  }
+  .sidebar h2{
+  font-weight:normal;
+  	min-width:220px;
+    font-size: 20px;
+    margin:0;
+  }
+  .contentContainer{
+  	flex: 1;
+  	display: flex;
+    flex-direction: column;
+	height:100vh;
+  }
+  .content {
+  	flex: 1;
+	padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background:#f8f8f8;
+	overflow:scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;
+            
+  }
+  .content::-webkit-scrollbar{
+  display:none;
+  }
+  .content .block {
+  	padding:40px 30px;
+  }
+  .content .block h1{
+  	font-weight:bold;
+  	font-size: 28px;
+    color:#003322;
+    margin:15px 0;
+  }
+  .content .block h2{
+  	font-weight:normal;
+  	font-size: 20px;
+    color:#111111;
+    margin: 10px 0;
+  }
+  .content .block h3{
+  	font-weight:normal;
+  	font-size: 14px;
+    color:#111111;
+    margin: 10px 0;
+  }
+  .content .line{
+  margin:0;
+  height:5px;
+  min-height:5px;
+ 	background-color: #00aa99;
+  }
+  .footer{
+  	background:#00aa99;
+    height:130px;
+  }
+  
+</style>
+</head>
+<body>
 
+<div class="sidebarContainer">
+<div class="sidebar">
+<img src="img/face.png">
+<h1>Chanwoo Park</h1>
 
+<h2>bcw6622@dgist.ac.kr
+</h2>
+</div>
+</div>
+<div class="contentContainer">
+<div class="content">
+<div class="block">
+<h1> About </h1>
 
-		<div class="row">
-			<div class="col-md-12">
-				<h3>Professor</h3>
-				<div class="photoContainer">
-					<img src="/img/jean_profile2023.jpeg" alt="Jean's profile photo with her face">
-				</div>
-				<p><a href="https://jyskwon.github.io/">Jean Y. Song</a><br>
-				  Assistant Professor</p>
-			</div>
-		</div>
-		<br><br><br>
+<h2>Hello, I am Chanwoo Park, a DGIST integrated master's and doctoral program student. I am working with Prof. Jean Y. Song's lab.</h2>
+<h2>My main research field is crowdsourcing, and I am also studying on deep learning. I am researching how to technically improve the crowdsourcing procedure.</h2>
 
+</div>
+<div class="line"></div>
+<div class="block">
+<h1> Affiliation </h1>
+<h2>Daegu Gyeongbuk Institute of Science & Technology,</h2>
+<h2>Electrical Engineering & Computer Science,</h2>
+<h2>Integrated MS & Ph.D Course</h2>
 
+</div>
+<div class="line"></div>
+<div class="block">
+<h1> Publications </h1>
+<h2> 
+Exploring Intervention Techiques to Alleviate Negative Emotions during Video Content Moderation Tasks as a Worker-centered Task Design
+</h2>
+<h3>DIS'24</h3>
 
-		<!-- <div class="row">
-			<div class="col-md-12">
-				<h3>Researcherr</h3>
-				<div class="photoContainer">
-					<img src="/img/jeongeon_profile_picture.jpeg" alt="Jeongeon's profile photo with her face">
-				</div>
-				<p><a href="https://jeongeonpark.com/">Jeongeon Park</a><br>
-			  	  Researcher</p>
-			</div>
-		</div>
-		<br><br><br> -->
+<h3>Dokyun Lee, Sangeun Seo, <u>Chanwoo Park</u>, Sunjun Kim, Buru Chang, and Jean Y. Song</h3>
 
-		<h3>Graduate Students</h3>
-
-		<div class="row">
-			<div class="col-md-3">
-				<div class="photoContainer">
-					<img src="/img/chanwoo_profile_picture.jpg" alt="Profile photo with his/her face">
-				</div>
-				<p><a href="https://bcw6622.github.io/">Chanwoo Park</a><br>
-				  Integrated<br/>Ph.D. student</p>
-			</div>
-			<div class="col-md-3">
-				<div class="photoContainer">
-					<img src="/img/dokyun.jpg" alt="Profile photo with his/her face">
-				</div>
-				<p><a href="https://dokyunlee.github.io/">Dokyun Lee</a><br>
-				  Integrated<br/>Ph.D. student</p>
-			</div>
-			<div class="col-md-3">
-				<div class="photoContainer">
-					<img src="/img/yeonsun_profile_picture.jpg" alt="Profile photo with his/her face">
-				</div>
-				<p><a href="https://yeonsunyang.com/">Yeonsun Yang</a><br>
-				  Integrated<br/>Ph.D. student</p>
-			</div>
-			<div class="col-md-3"></div>
-				<div class="photoContainer">
-					<img src="/img/SangEun_profile_picture.jpg" alt="Profile photo with his/her face">
-				</div>
-				<p><a href="https://seseo98.github.io/">SangEun Seo</a><br>
-			  	  M.S. Student</p>
-			</div>
-			<!--div class="col-md-3">
-				<div class="photoContainer">
-					<img src="/img/sungmin_profile_picture.jpg" alt="Profile photo with his/her face">
-				</div>
-				<p><a href="">Sungmin Ha</a><br>
-				  Integrated<br/>Ph.D. student</p>
-			</div-->
-		</div>
-		<br><br><be>
-
-		<div class="row">
-			<div class="col-md-3">
-				<div class="photoContainer">
-					<img src="/img/taehun_profile_picture.jpg" alt="Profile photo with his/her face">
-				</div>
-				<p><a href="https://raflereak.github.io">Taehun Kim</a><br>
-				  M.S. Student</p>
-			</div>
-		</div>
-		<br><br><be>
-
-		<h3>Undergraduate Students</h3>
-
-		<div class="row">
-			<div class="col-md-3">
-				<div class="photoContainer">
-					<img src="/img/ahyeon_profile_picture.jpg" alt="Profile photo with his/her face">
-				</div>
-				<p><a href="">Ahyeon Shin</a><br>
-				Undergraduate<br/>Research Intern</p>
-			</div>
-		</div>
-		<br><br><br>
-		</div>
-
-		<div class="col-lg-8 col-lg-offset-2">
-			<h3>Alumni</h3>
-			<ul style="font-size: 18px; text-align:left;">
-				<li>
-					Mincheol Kang, Undergrad Intern (DGIST), Spring 2024 - Summer 2024
-				</li>
-				<li>
-					Jiheon Kang, Undergrad Intern (DGIST), Spring 2024 - Summer 2024
-				</li>
-				<li>
-					Yibin Moon, Undergrad Intern (DGIST), Spring 2024
-				</li>
-				<li>
-					Nayoung Kim, Undergrad Intern (DGIST), Winter 2023 - Spring 2024
-				</li>
-				<li>
-					Jaeyoung Choi, Undergrad Intern (DGIST), Winter 2023 - Spring 2024
-				</li>
-				<li>
-					Suyeon Shin, Undergrad Intern (DGIST), Summer 2023 - Spring 2024
-				</li>
-				<li>
-					Sungmin Ju, Undergrad Intern (DGIST), Summer 2023 - Spring 2024
-				</li>
-				<li>
-					<a href="https://jeongeonpark.com">Jeongeon Park</a>, Researcher, Fall 2023 - Spring 2024
-				</li>
-				<li>
-					Sunoo Kim, Undergrad Intern (DGIST), Winter 2024 - Spring 2024
-				</li>
-				<li>
-					Youngjin Park, Undergrad Intern (DGIST), Winter 2024
-				</li>
-				<li>
-					Dain Kim, Undergrad Intern (DGIST), Winter 2023 - Fall 2023
-				</li>
-				<li>
-					Sihwan Seok, Undergrad Intern (DGIST), Winter 2023 - Fall 2023
-				</li>
-				<li>
-					Subeen Jo, Undergad Intern (DGIST), Winter 2023 - Fall 2023
-				</li>
-				<li>
-					Minseong Kim, Undergrad Intern (DGIST), Spring 2023 - Summer 2023
-				</li>
-				<li>
-					Huidam Woo, Undergrad Intern (DGIST), Spring 2023
-				</li>
-				<li>
-					Chan Lee, Undergrad Intern (DGIST), Spring 2023
-				</li>
-				<li>
-					Ahyeon Shin, Undergrad Intern (DGIST), Winter 2023
-				</li>
-				<li>
-					Sangeun Seo, Undergrad Intern (UNIST), Summer 2022, Winter 2023
-				</li>
-				<li>
-					Chanyu Moon, Undergrad Intern (DGIST), Winter 2023
-				</li>
-				<li>
-					Gunuk Nam, Undergrad Intern (Handong Global University), Winter 2023
-				</li>
-				<li>
-					Nayoung Kim, Undergrad Intern (DGIST), Winter 2022 - Winter 2023
-				</li>
-				<li>
-					Hojin Jin, Undergrad Intern (DGIST), Winter 2022 - Fall 2022
-				</li>
-				<li>
-					Hyeonho Kwon, Undergrad Intern (DGIST), Winter 2022 - Fall 2022
-				</li>
-				<li>
-					Giwon Lee, Undergrad Intern (DGIST), Winter 2022 - Fall 2022
-				</li>
-				<li>
-					Giwa Osaruiyobo Henrietta, Graduate Intern (DGIST), Summer 2022
-				</li>
-
-			</ul>
-		</div>
-	</div>
-</section>
+</div>
+</div>
+<div class="footer"></div>
+</div>
+</body>
+</html>
